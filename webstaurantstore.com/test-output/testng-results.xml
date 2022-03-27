@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-27T12:22:10 EDT" name="Default suite" finished-at="2022-03-27T12:22:21 EDT" duration-ms="10749">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.TestRun.TestRunner@747edf66]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-03-27T12:22:10 EDT" name="Default test" finished-at="2022-03-27T12:22:21 EDT" duration-ms="10749">
+      <class name="com.TestRun.TestRunner">
+        <test-method is-config="true" signature="lanchbrowser()[pri:0, instance:com.TestRun.TestRunner@747edf66]" started-at="2022-03-27T12:22:10 EDT" name="lanchbrowser" finished-at="2022-03-27T12:22:12 EDT" duration-ms="1537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanchbrowser -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.TestRun.TestRunner@747edf66]" started-at="2022-03-27T12:22:12 EDT" name="setUpClass" finished-at="2022-03-27T12:22:12 EDT" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.TestRun.TestRunner@747edf66]" started-at="2022-03-27T12:22:12 EDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-03-27T12:22:20 EDT" duration-ms="8401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Search product and varify]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRun.TestRunner@747edf66]" started-at="2022-03-27T12:22:20 EDT" name="tearDownClass" finished-at="2022-03-27T12:22:20 EDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.TestRun.TestRunner@747edf66]" started-at="2022-03-27T12:22:20 EDT" name="closebrowser" finished-at="2022-03-27T12:22:21 EDT" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.TestRun.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
