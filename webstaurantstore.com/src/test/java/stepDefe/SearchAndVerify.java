@@ -8,20 +8,18 @@ import com.UitilityBased.Base_Class;
 
 import cucumber.api.java.en.*;
 
+
+
 public class SearchAndVerify extends Base_Class {
 	
 	SearchPageAction searchPageAction = new SearchPageAction();
 	
 	
-	@Given("^Lanch webstaurantstore \"([^\"]*)\"$")
-	public void lanch_webstaurantstore(String URL) throws Throwable {
-		launchURL(URL);  
-		
-	}
+	
 
 	@Then("^Search for 'stainless work table'$")
 	public void search_for_stainless_work_table() throws Throwable {
-		searchPageAction.search_for_stainless_work_table();
+		searchPageAction.search_for_stainless_work_table(property.getProperty("product0"));
 		
 	}
 
@@ -42,5 +40,6 @@ public class SearchAndVerify extends Base_Class {
 		searchPageAction.empty_Cart(); 
 	    
 	}
+
 
 }

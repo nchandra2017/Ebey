@@ -12,11 +12,12 @@ public class SearchPageAction extends Base_Class{
 	
 	SearchPageLocator searchLocator = new SearchPageLocator();
 	
-	public void search_for_stainless_work_table() {
-		searchLocator.SeaechField.sendKeys("stainless work table");
+	public void search_for_stainless_work_table(String table) {
+		searchLocator.SeaechField.sendKeys(table);
 		searchLocator.SeaechButton.click();
 		
 	}
+	
 	public void check_the_search_result_ensuring_every_product_item_has_the_word_Table_in_its_title() {
 		String title =driver.getTitle();
 		Assert.assertTrue(title.contains("Table"));

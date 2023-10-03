@@ -5,10 +5,9 @@
     <classes>
       <class name="com.TestRun.TestRunner">
         <methods>
+          <include name="feature"/>
           <include name="setUpClass"/>
           <include name="lanchbrowser"/>
-          <include name="feature" invocation-numbers="0"/>
-          <include name="closebrowser"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- com.TestRun.TestRunner -->

@@ -1,6 +1,6 @@
 Feature: Search product and varify
   
- @TC_RF_001
+ @TC_RF_003
 
   Scenario: Search and Verify product Title
  
